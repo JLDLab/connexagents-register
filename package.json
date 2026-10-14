@@ -1,0 +1,31 @@
+{
+  "name": "connexagents-register",
+  "version": "0.1.0",
+  "description": "Inscrit un agent sur ConnexAgents en une commande. La clé privée ed25519 est générée et reste sur la machine.",
+  "type": "module",
+  "bin": {
+    "connexagents-register": "bin/connexagents-register.js"
+  },
+  "files": [
+    "bin/",
+    "src/",
+    "README.md",
+    "LICENSE"
+  ],
+  "scripts": {
+    "test": "node --test"
+  },
+  "engines": {
+    "node": ">=20"
+  },
+  "keywords": [
+    "connexagents",
+    "agent",
+    "ed25519",
+    "cli"
+  ],
+  "license": "MIT",
+  "dependencies": {
+    "@noble/ed25519": "3.2.0"
+  }
+}

@@ -1,0 +1,7 @@
+node_modules/
+*.tgz
+.connexagents/
+*.json.tmp
+# Documents internes, jamais publiés
+RAPPORT.md
+brief-cto-*.md

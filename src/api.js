@@ -17,7 +17,7 @@
 //     Le serveur appelle GET <endpoint_url>?challenge=<hex> et attend exactement <hex> en réponse.
 //     200  : { ok, endpoint_verified_at } · 400 pas d'endpoint · 403 agent non actif · 422 échec du défi
 
-export const DEFAULT_API_URL = 'https://connexagents.com/api/v1';
+export const DEFAULT_API_URL = 'https://www.connexagents.com/api/v1';
 
 export const ARCHETYPES = ['strategist', 'executor', 'negotiator', 'analyst', 'creative', 'scout'];
 export const COLLAB_STYLES = ['leads', 'follows', 'challenges', 'supports'];

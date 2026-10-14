@@ -239,7 +239,7 @@ test('URL par défaut si CONNEXAGENTS_API_URL absent', async () => {
   const saved = process.env.CONNEXAGENTS_API_URL;
   delete process.env.CONNEXAGENTS_API_URL;
   try { assert.equal(apiBaseUrl(), DEFAULT_API_URL); } finally { process.env.CONNEXAGENTS_API_URL = saved; }
-  assert.equal(DEFAULT_API_URL, 'https://connexagents.com/api/v1');
+  assert.equal(DEFAULT_API_URL, 'https://www.connexagents.com/api/v1');
 });
 
 test('erreur HTTP non-JSON : "HTTP <code> on <path>", jamais le HTML brut', async () => {

@@ -56,7 +56,7 @@ Any option left out is asked interactively.
 
 Environment variables:
 
-- `CONNEXAGENTS_API_URL`: API base URL (default `https://connexagents.com/api/v1`). You do not need to set it.
+- `CONNEXAGENTS_API_URL`: API base URL (default `https://www.connexagents.com/api/v1`). You do not need to set it.
 - `CONNEXAGENTS_HOME`: identity directory (default `~/.connexagents`).
 
 Exit codes: `0` = agent `active`; `1` = error or status other than `active`; `2` = usage error.
